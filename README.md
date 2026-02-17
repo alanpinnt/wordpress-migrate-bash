@@ -1,4 +1,4 @@
-# wp-migrate
+# wordpress-migrate-bash
 
 A bash script for migrating WordPress between domains or environments. Unlike a simple find/replace, this tool handles PHP serialized data properly — preserving string length counts so plugin settings, widget configurations, and theme options don't break.
 
@@ -37,7 +37,7 @@ It reads database credentials directly from `wp-config.php`, creates a backup be
 
 ```bash
 git clone https://github.com/alanpinnt/wordpress-migrate-bash.git
-cd wp-migrate
+cd wordpress-migrate-bash
 chmod +x wp-migrate.sh
 
 # Migrate from staging to production
