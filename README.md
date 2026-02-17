@@ -36,7 +36,7 @@ It reads database credentials directly from `wp-config.php`, creates a backup be
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/wp-migrate.git
+git clone https://github.com/alanpinnt/wordpress-migrate-bash.git
 cd wp-migrate
 chmod +x wp-migrate.sh
 
